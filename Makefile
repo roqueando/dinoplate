@@ -1,4 +1,4 @@
-TARGET = project_name
+TARGET = app_name
 BUILDDIR = build/debug
 
 all: build run

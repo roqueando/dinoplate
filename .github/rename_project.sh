@@ -17,11 +17,12 @@ echo "Description: $description";
 echo "Renaming project..."
 
 original_author="author_name"
-original_name="project_name"
-original_upper="PROJECT_NAME"
+original_name="app_name"
+original_upper="APP_NAME"
 upper_name=${name^^}
 original_urlname="project_urlname"
 original_description="project_description"
+description_name=${original_description^^}
 # for filename in $(find . -name "*.*") 
 for filename in $(git ls-files) 
 do
