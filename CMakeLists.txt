@@ -21,7 +21,7 @@ project(
 
 include(cmake/StandardProjectSettings.cmake)
 
-add_executable(${APP_NAME_BINARY_NAME} src/core/ui/app.cpp)
+add_executable(${APP_NAME_BINARY_NAME} src/main.cpp)
 target_link_libraries(${APP_NAME_BINARY_NAME} PUBLIC ${APP_NAME_LIBRARY_NAME})
 target_compile_features(${APP_NAME_BINARY_NAME} PRIVATE cxx_std_20)
 
